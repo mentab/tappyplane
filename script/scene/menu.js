@@ -24,9 +24,8 @@ export default function Menu()
 
 	plane.play("fly");
 
-	// TODO add title
 	k.add([
-		k.sprite("textGetReady"),
+		k.sprite("textMainTitle"),
 		k.pos(k.width() / 2, k.height() / 3),
 		k.origin("center"),
 		k.scale(.5),

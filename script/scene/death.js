@@ -4,6 +4,15 @@ import addButton from './../helper/button.js';
 
 export default function Death(score)
 {
+	if (!localStorage.getItem('scores'))
+	{
+		localStorage.setItem('scores', JSON.stringify([score]));
+	}
+	else
+	{
+		localStorage.setItem('scores', JSON.stringify(JSON.parse(localStorage.getItem('scores')).sort((a, b) => a - b).reverse().slice(0, 10).concat(score)));
+	}
+
 	k.layers([
 		"background",
 		"obj",
@@ -81,15 +90,6 @@ export default function Death(score)
 		k.pos(k.width() / 2 + 10, k.height() / 2 + 40),
 		k.layer("ui")
 	]);
-
-	if (!localStorage.getItem('scores'))
-	{
-		localStorage.setItem('scores', JSON.stringify([score]));
-	}
-	else
-	{
-		localStorage.setItem('scores', JSON.stringify(JSON.parse(localStorage.getItem('scores')).sort((a, b) => a - b).reverse().slice(0, 10).concat(score)));
-	}
 
 	addButton("OK", k.vec2(k.width() / 2 - 80, k.height() / 2 + 180), () => { k.go("menu"); });
 };

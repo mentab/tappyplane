@@ -27,6 +27,7 @@ k.loadSprite("tapRight", "img/tapRight.png");
 k.loadSprite("tapTick", "img/tapTick.png");
 k.loadSprite("textGameOver", "img/textGameOver.png");
 k.loadSprite("textGetReady", "img/textGetReady.png");
+k.loadSprite("textMainTitle", "img/textMainTitle.png");
 k.loadSprite("medalBronze", "img/medalBronze.png");
 k.loadSprite("medalSilver", "img/medalSilver.png");
 k.loadSprite("medalGold", "img/medalGold.png");
@@ -35,9 +36,21 @@ k.loadSprite("buttonLarge", "img/buttonLarge.png");
 k.loadSprite("puffSmall", "img/puffSmall.png");
 k.loadSprite("puffLarge", "img/puffLarge.png");
 k.loadSprite("UIbg", "img/UIbg.png");
+k.loadSprite("number0", "img/number0.png");
+k.loadSprite("number1", "img/number1.png");
+k.loadSprite("number2", "img/number2.png");
+k.loadSprite("number3", "img/number3.png");
+k.loadSprite("number4", "img/number4.png");
+k.loadSprite("number5", "img/number5.png");
+k.loadSprite("number6", "img/number6.png");
+k.loadSprite("number7", "img/number7.png");
+k.loadSprite("number8", "img/number8.png");
+k.loadSprite("number9", "img/number9.png");
+
 k.loadSound("score", "sound/score.mp3");
 k.loadSound("wooosh", "sound/wooosh.mp3");
 k.loadSound("hit", "sound/hit.mp3");
+
 k.loadFont("kenvector_future", "font/kenvector_future.png");
 
 k.scene("menu", Menu);

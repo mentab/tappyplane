@@ -164,14 +164,4 @@ export default function Main()
 		score.text = score.value;
 		k.play("score");
 	}
-
-	k.keyDown("up", () =>
-	{
-		k.camScale(k.camScale().k.add(k.vec2(k.dt())));
-	});
-
-	k.keyDown("down", () =>
-	{
-		k.camScale(k.camScale().k.sub(k.vec2(k.dt())));
-	});
 };

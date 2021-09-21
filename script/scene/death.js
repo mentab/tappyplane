@@ -52,7 +52,7 @@ export default function Death(score)
 	{
 		spriteMedal = "medalSilver";
 	}
-	else if (score > -1)
+	else if (score > 25)
 	{
 		spriteMedal	=	"medalBronze";
 	}

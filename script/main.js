@@ -47,9 +47,9 @@ k.loadSprite("number7", "img/number7.png");
 k.loadSprite("number8", "img/number8.png");
 k.loadSprite("number9", "img/number9.png");
 
-k.loadSound("score", "sound/score.mp3");
-k.loadSound("wooosh", "sound/wooosh.mp3");
-k.loadSound("hit", "sound/hit.mp3");
+k.loadSound("score", "sound/sfx_coin_single6.wav");
+k.loadSound("hit", "sound/sfx_exp_short_hard14.wav");
+k.loadSound("wooosh", "sound/sfx_movement_jump8.wav");
 
 k.loadFont("kenvector_future", "font/kenvector_future.png");
 

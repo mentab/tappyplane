@@ -1,6 +1,6 @@
-import k from '../kaboom.js';
-import addBackgrounds from './../helper/background.js';
-import addButton from './../helper/button.js';
+import k from './../kaboom.js';
+import addBackgrounds from './../helpers/background.js';
+import addButton from './../helpers/button.js';
 
 export default function Score()
 {

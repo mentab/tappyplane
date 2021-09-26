@@ -1,3 +1,5 @@
+import kaboom from 'kaboom';
+
 export const k = kaboom({
 	global: false,
 	scale: window.innerHeight / 480,
